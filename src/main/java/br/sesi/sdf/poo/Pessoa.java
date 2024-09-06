@@ -1,14 +1,13 @@
 package br.sesi.sdf.poo;
 
 import br.sesi.sdf.poo.cabeca.*;
+import br.sesi.sdf.poo.interior.Membrosinferiores;
+import br.sesi.sdf.poo.tronco.Tronco;
 
 public class Pessoa {
-
-    ////Tronco
-    // Braço
-    //
-    Braco bracoEsquerdo;
-    Braco bracoDireito;
+    Cabeca cabeca;
+    Tronco tronco;
+    Membrosinferiores inferiores;
 
 
 }
